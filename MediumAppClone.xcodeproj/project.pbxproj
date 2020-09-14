@@ -17,7 +17,7 @@
 		85A9B76E24F90F810013BEF8 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9B76D24F90F810013BEF8 /* MainTableViewCell.swift */; };
 		85C2634124F0082A005438A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2634024F0082A005438A1 /* AppDelegate.swift */; };
 		85C2634324F0082A005438A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2634224F0082A005438A1 /* SceneDelegate.swift */; };
-		85C2634524F0082A005438A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2634424F0082A005438A1 /* ProfileViewController.swift */; };
+		85C2634524F0082A005438A1 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2634424F0082A005438A1 /* ProfilViewController.swift */; };
 		85C2634824F0082A005438A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C2634624F0082A005438A1 /* Main.storyboard */; };
 		85C2634D24F0082C005438A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C2634C24F0082C005438A1 /* Assets.xcassets */; };
 		85C2635024F0082C005438A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C2634E24F0082C005438A1 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		85C2633D24F0082A005438A1 /* MediumAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C2634024F0082A005438A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85C2634224F0082A005438A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85C2634424F0082A005438A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		85C2634424F0082A005438A1 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		85C2634724F0082A005438A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85C2634C24F0082C005438A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C2634F24F0082C005438A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				8568B49B24F3B52A0070AAD8 /* CreateDocumentViewController.swift */,
-				85C2634424F0082A005438A1 /* ProfileViewController.swift */,
+				85C2634424F0082A005438A1 /* ProfilViewController.swift */,
 				8525D2022500DEA40058F645 /* FavoriteViewController.swift */,
 				85EA181A24FAD2510047FF7F /* DetailsViewController.swift */,
 				8568B4A324F4FE060070AAD8 /* LoginSignUpViewController.swift */,
@@ -271,7 +271,7 @@
 				8568B49C24F3B52A0070AAD8 /* CreateDocumentViewController.swift in Sources */,
 				85EA181B24FAD2510047FF7F /* DetailsViewController.swift in Sources */,
 				85A9B76E24F90F810013BEF8 /* MainTableViewCell.swift in Sources */,
-				85C2634524F0082A005438A1 /* ProfileViewController.swift in Sources */,
+				85C2634524F0082A005438A1 /* ProfilViewController.swift in Sources */,
 				85EA181D24FADD370047FF7F /* Model.swift in Sources */,
 				85C2634124F0082A005438A1 /* AppDelegate.swift in Sources */,
 				8568B4A424F4FE060070AAD8 /* LoginSignUpViewController.swift in Sources */,
