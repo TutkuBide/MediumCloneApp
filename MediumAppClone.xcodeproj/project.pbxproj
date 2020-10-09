@@ -10,7 +10,7 @@
 		0FF2259E230259BCA8C43072 /* Pods_MediumAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB09001DCFC26EEEB336C6E3 /* Pods_MediumAppClone.framework */; };
 		8525D2032500DEA40058F645 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8525D2022500DEA40058F645 /* FavoriteViewController.swift */; };
 		8525D2052500E10E0058F645 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8525D2042500E10E0058F645 /* FavoriteTableViewCell.swift */; };
-		8568B49C24F3B52A0070AAD8 /* CreateDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8568B49B24F3B52A0070AAD8 /* CreateDocumentViewController.swift */; };
+		854E2E0B25304D9F003CCD5E /* CreateDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854E2E0A25304D9F003CCD5E /* CreateDocumentViewController.swift */; };
 		8568B4A424F4FE060070AAD8 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8568B4A324F4FE060070AAD8 /* LoginSignUpViewController.swift */; };
 		8592B24724F6DDAB00231EFC /* DynamicConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592B24624F6DDAB00231EFC /* DynamicConstraint.swift */; };
 		85A9B76C24F90F480013BEF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9B76B24F90F480013BEF8 /* MainViewController.swift */; };
@@ -30,7 +30,7 @@
 		7BC2892696DE7089D07BEF96 /* Pods-MediumAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediumAppClone.debug.xcconfig"; path = "Target Support Files/Pods-MediumAppClone/Pods-MediumAppClone.debug.xcconfig"; sourceTree = "<group>"; };
 		8525D2022500DEA40058F645 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		8525D2042500E10E0058F645 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
-		8568B49B24F3B52A0070AAD8 /* CreateDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateDocumentViewController.swift; path = /Users/tutkubide/Desktop/MediumAppClone/MediumAppClone/CreateDocumentViewController.swift; sourceTree = "<absolute>"; };
+		854E2E0A25304D9F003CCD5E /* CreateDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDocumentViewController.swift; sourceTree = "<group>"; };
 		8568B4A324F4FE060070AAD8 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
 		8592B24624F6DDAB00231EFC /* DynamicConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicConstraint.swift; sourceTree = "<group>"; };
 		85A9B76B24F90F480013BEF8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		85B89C4D250FB2A7005CC822 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8568B49B24F3B52A0070AAD8 /* CreateDocumentViewController.swift */,
+				854E2E0A25304D9F003CCD5E /* CreateDocumentViewController.swift */,
 				85C2634424F0082A005438A1 /* ProfilViewController.swift */,
 				8525D2022500DEA40058F645 /* FavoriteViewController.swift */,
 				85EA181A24FAD2510047FF7F /* DetailsViewController.swift */,
@@ -179,7 +179,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Tutku Bide";
 				TargetAttributes = {
 					85C2633C24F0082A005438A1 = {
@@ -268,11 +268,11 @@
 				8525D2032500DEA40058F645 /* FavoriteViewController.swift in Sources */,
 				8525D2052500E10E0058F645 /* FavoriteTableViewCell.swift in Sources */,
 				85A9B76C24F90F480013BEF8 /* MainViewController.swift in Sources */,
-				8568B49C24F3B52A0070AAD8 /* CreateDocumentViewController.swift in Sources */,
 				85EA181B24FAD2510047FF7F /* DetailsViewController.swift in Sources */,
 				85A9B76E24F90F810013BEF8 /* MainTableViewCell.swift in Sources */,
 				85C2634524F0082A005438A1 /* ProfilViewController.swift in Sources */,
 				85EA181D24FADD370047FF7F /* Model.swift in Sources */,
+				854E2E0B25304D9F003CCD5E /* CreateDocumentViewController.swift in Sources */,
 				85C2634124F0082A005438A1 /* AppDelegate.swift in Sources */,
 				8568B4A424F4FE060070AAD8 /* LoginSignUpViewController.swift in Sources */,
 				8592B24724F6DDAB00231EFC /* DynamicConstraint.swift in Sources */,
@@ -328,6 +328,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -352,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -388,6 +389,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -406,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6BY6SASW4;
 				INFOPLIST_FILE = MediumAppClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6BY6SASW4;
 				INFOPLIST_FILE = MediumAppClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
